@@ -1,0 +1,21 @@
+html{
+  height: 100%;
+}
+body{
+  height:100%;
+}
+main{
+  height:100%;
+}
+#image_section{
+  background: url(../img/wedding_pic_regular.jpeg) blue;
+  min-height:100%;
+  background-size: cover;
+}
+
+#text_section{
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+}
