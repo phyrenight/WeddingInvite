@@ -22,7 +22,8 @@ main{
 #text_section{
   z-index: 10;
   position: absolute;
-  background-color: rgba(0,0,0,0.3);
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.3);
   height: 100%;
   width: 100%;
   top: 0;
@@ -40,6 +41,7 @@ main{
   main{
     display: flex;
   }
+
   #image_section, #text_section{
     display: inline-block;
     width: 49%;
@@ -47,6 +49,7 @@ main{
     position: relative;
   }
   #text_section{
+    background: rgb(0,0,0);
     background: rgba(0,0,0,0);
     color:#000;
   }
