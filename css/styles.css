@@ -2,19 +2,20 @@ html{
   height: 100%;
   font-family: 'Pinyon Script', cursive;
 }
+
 body{
   height: 100%;
   margin: 0;
 }
+
 main{
   height: 100%;
-  display: relative;
 }
+
 #image_section{
   background: url(../img/wedding_pic_regular.jpeg) no-repeat blue;
   min-height: 100%;
   background-size: cover;
-  display: absolute;
   top: 0;
   left: 0;
 }
@@ -48,6 +49,7 @@ main{
     z-index: 0;
     position: relative;
   }
+  
   #text_section{
     background: rgb(0,0,0);
     background: rgba(0,0,0,0);
