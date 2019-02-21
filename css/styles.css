@@ -35,3 +35,19 @@ main{
 #text_names, #wedding{
   font-size: 2em;
 }
+
+@media (min-width:640px){
+  main{
+    display: flex;
+  }
+  #image_section, #text_section{
+    display: inline-block;
+    width: 49%;
+    z-index: 0;
+    position: relative;
+  }
+  #text_section{
+    background: rgba(0,0,0,0);
+    color:#000;
+  }
+}
